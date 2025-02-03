@@ -29,10 +29,13 @@ git clone https://github.com/parinshah131/angular-demo-app.git
 cd angular-demo-app
 
 ### **Install Dependencies**
+```sh
 npm install
-
-### **Running the Application***
+```
+### **Running the Application**
+```sh
 npm start
+```
 
 Once the server starts, open your browser and visit:
 *http://localhost:4200*
