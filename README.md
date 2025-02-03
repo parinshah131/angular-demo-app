@@ -1,17 +1,17 @@
 This project is a feature-rich Angular application with **authentication**, **role-based access control**, **lazy loading**, **directives**, **pipes**, and **API integration** using JSONPlaceholder.
 
 ## 🚀 Features
- **User Authentication: Login/logout feature with role-based navigation.**
- **Routing & Guards: Protects routes based on user role.**  
- **Admin & User Modules: Separate modules for admin and user dashboards.**  
- **Child Routing: admin/settings as a child route in the Admin module.**  
- **Data Fetching: Uses Angular's HttpClient to fetch posts from JSONPlaceholder.**  
- **Custom Directive: HoverEffectDirective to modify DOM behavior.**  
- **Custom Pipe: TitlePipe to convert the first letter of all words to uppercase.**  
- **Shared Service: Fetching posts and post by ID using a common service.**  
- **API Integration with JSONPlaceholder**  
- **Proper Route Guards & Authentication Handling**  
- **Unit Testing: post.service.spec.ts for service testing.**  
+ - **User Authentication: Login/logout feature with role-based navigation.**
+ - **Routing & Guards: Protects routes based on user role.**  
+ - **Admin & User Modules: Separate modules for admin and user dashboards.**  
+ - **Child Routing: admin/settings as a child route in the Admin module.**  
+ - **Data Fetching: Uses Angular's HttpClient to fetch posts from JSONPlaceholder.**  
+ - **Custom Directive: HoverEffectDirective to modify DOM behavior.**  
+ - **Custom Pipe: TitlePipe to convert the first letter of all words to uppercase.**  
+ - **Shared Service: Fetching posts and post by ID using a common service.**  
+ - **API Integration with JSONPlaceholder**  
+ - **Proper Route Guards & Authentication Handling**  
+ - **Unit Testing: post.service.spec.ts for service testing.**  
 
  ## Project Setup
 
