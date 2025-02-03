@@ -36,7 +36,7 @@ npm install
 ```sh
 npm start
 ```
-
+**Note: .gitignore file already has node_modules**
 Once the server starts, open your browser and visit:
 *http://localhost:4200*
 
@@ -91,6 +91,7 @@ The MyAngularChallenge project is an Angular application designed to demonstrate
 | `/admin/settings`      | SettingsComponent   | Admin settings (child route)   |
 | `/user`     | UserPostsComponent   | User dashboard       |
 | `/logout`   | LogoutComponent   | Logout with dropdown |
+| `access-denied` | AccessDeniedComponent | Access denied page |
 | **          | Redirect to /login | Default fallback |
 
 
