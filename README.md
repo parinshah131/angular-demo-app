@@ -25,7 +25,7 @@ Ensure you have the following installed:
 
 
 ### **Clone the Repository**
-git clone https://github.com/yourusername/angular-auth-posts.git
+git clone https://github.com/parinshah131/angular-demo-app.git
 cd angular-demo-app
 
 ### **Install Dependencies**
