@@ -1,0 +1,38 @@
+<div class="block-center mt-xl wd-xl ng-scope">
+  <div>
+    <div style="min-height: 220px">
+      <p class="text-center pv">LOGIN TO CONTINUE.</p>
+      <form #signInForm="ngForm" class="form-validate mb-lg" role="form" (ngSubmit)="onSubmit(signInForm)">
+        <div>
+          <input class="form-control" [ngModelOptions]="{standalone: true}" name="username" placeholder="Enter username"
+            [(ngModel)]="username" required>
+        </div>
+        <div>
+          <input class="form-control" name="password" [ngModelOptions]="{standalone: true}" type="password"
+            placeholder="Password" [(ngModel)]="password" required>
+        </div>
+        @if(!formError){
+        <div class="alert alert-danger">
+          {{ formError }}
+        </div>
+        }
+        @if(!submitting){
+        <div style="margin-bottom: 30px">
+          <button type="submit" class="btn btn-block btn-primary mt-lg">Login</button>
+        </div>
+        }
+        <!-- @if(submitting){
+        <div>
+          <p class="message" style="text-align: center">Signing in....</p>
+        </div>
+        } -->
+        <!-- @if(showError != ''){
+        <div class="alert alert-danger" style="margin-top: 65px;margin-bottom: 0px;">
+          <strong>{{showError}}</strong>
+        </div>
+        } -->
+      </form>
+    </div>
+  </div>
+  <!-- END panel-->
+</div>
